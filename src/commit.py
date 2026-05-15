@@ -1,6 +1,6 @@
 from datetime import datetime, timedelta
 from random import random
-import git, os, logging, pygit2, tqdm, subprocess, base64
+import os, logging, pygit2, tqdm, subprocess, base64
 from faker import Faker
 from src.config import Config
 from src.secrets import Secrets
